@@ -2,4 +2,5 @@
 {"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"]}
 ---
 
-Welcome
+Powered by [Digital Garden](https://dg-docs.ole.dev/).
+
