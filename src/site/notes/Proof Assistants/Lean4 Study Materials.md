@@ -12,3 +12,5 @@
 
 [Logic and Mechanized Reasoning](https://github.com/avigad/lamr#logic-and-mechanized-reasoning)
 
+
+https://loogle.lean-lang.org/
