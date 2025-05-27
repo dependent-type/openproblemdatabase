@@ -2,52 +2,40 @@
 {"dg-publish":true,"permalink":"/astronomy/cosmology/introduction-to-cosmology-1-daniel-baumann/"}
 ---
 
+# Course Outline 
+![Lecture1_page-0001.jpg](/img/user/Astronomy/Cosmology/Lecture1_img/Lecture1_page-0001.jpg)
 
-![](https://cdn.mathpix.com/cropped/2025_05_27_50cd43eba748c8e58b7eg-01.jpg?height=1047&width=1645&top_left_y=162&top_left_x=211)
+![Lecture1_page-0002.jpg](/img/user/Astronomy/Cosmology/Lecture1_img/Lecture1_page-0002.jpg)
 
-Daniel Baumann
+![Lecture1_page-0003.jpg](/img/user/Astronomy/Cosmology/Lecture1_img/Lecture1_page-0003.jpg)
 
-University of Amsterdam \&
-National Taiwan University
 
-CERN Lectures
-July 2024
+# Introduction
 
-## Disclaimer:
 
-Teaching all of cosmology in 3 hours is an impossible task. I will focus on the big picture and suppress technical details.
-
-More can be found in:
-![](https://cdn.mathpix.com/cropped/2025_05_27_50cd43eba748c8e58b7eg-01.jpg?height=663&width=1003&top_left_y=2050&top_left_x=532)
-
-## OUTLINE:
-
-![](https://cdn.mathpix.com/cropped/2025_05_27_50cd43eba748c8e58b7eg-02.jpg?height=1128&width=473&top_left_y=255&top_left_x=249)
-
-- Hubble-Lemaitre law
-- Friedmann equation
-- Matter and radiation
-- Dark energy
-- Nucleosynthesis
-- Cosmic microwave background
-- Density fluctuations
-- Gravitational clustering
-- Galaxy formation
-- Power spectrum
-- Cosmic sound waves
-- CMB anisotropies
-- Horizon problem
-- Cosmological inflation
-- Quantum fluctuations
-- Primordial perturbations
 ![](https://cdn.mathpix.com/cropped/2025_05_27_50cd43eba748c8e58b7eg-02.jpg?height=1303&width=1737&top_left_y=1510&top_left_x=165)
 
-We wish to derive, and then solve, the equation governing the evolution of the entire Universe.
+### Main Goal
 
-This is possible because, on large scales, the Universe is homogeneous and isotropic, and therefore allows for a simple mathematical description.
+- **Objective:**  
+    To derive and ultimately solve the fundamental equation that describes the evolution of the entire universe.
+
+- At first glance, modeling the entire universe may seem even more daunting than, for example, predicting the weather a week from now on Earth—something known to be notoriously difficult.
+
+- However, at very large (cosmic) scales, and especially as we look back in time (to the early universe), the universe becomes increasingly smooth and homogeneous.
+        
+- By averaging over all small-scale complexities, the overall description of the universe is drastically simplified.
+
+- **Key Insight:**
+    - On these scales, the universe can be characterized by a **single function of time**.
+        
+    - The evolution of this function is governed by a **differential equation**, which we will derive in this lecture.
+
+Thus, while the microscopic physics is complex, the mathematics governing the large-scale evolution of the universe is surprisingly straightforward.
+
 ![](https://cdn.mathpix.com/cropped/2025_05_27_50cd43eba748c8e58b7eg-03.jpg?height=761&width=1614&top_left_y=619&top_left_x=227)
 
-## Hubble's Law
+## Hubble's Law (1)
 
 In 1929, Hubble discovered the velocity-distance relation of galaxies:
 ![](https://cdn.mathpix.com/cropped/2025_05_27_50cd43eba748c8e58b7eg-03.jpg?height=638&width=814&top_left_y=1800&top_left_x=244)
@@ -56,12 +44,78 @@ In 1929, Hubble discovered the velocity-distance relation of galaxies:
 Inferred from redshifts
 ![](https://cdn.mathpix.com/cropped/2025_05_27_50cd43eba748c8e58b7eg-03.jpg?height=184&width=1021&top_left_y=2518&top_left_x=780)
 
+
+
+### Historical Context
+
+- The story of the expanding universe, at the **observational level**, begins in **1929** with **Edwin Hubble’s discovery** of a relationship between the velocities and distances of galaxies.
+
+### Hubble’s Original Data and Methods
+
+- **Hubble’s Plot:**
+    
+    - Plotted the **velocity** of individual galaxies (**y-axis**, measured in kilometers per second, km/s) against their **distance** (**x-axis**, measured in “megaparsecs”).
+        
+    - **Parsec (pc):** Astronomical distance unit; 1 parsec ≈ 3.26 light years; 1 megaparsec = 1 million parsecs.
+        
+    - The use of megaparsecs may seem unusual, but it’s standard in astronomy.
+        
+- **Data Collection:**
+    
+    - **Velocity measurements**: Obtained from redshift data provided by another astronomer (notably Slipher).
+        
+    - **Distance measurements:**
+        
+        - Hubble used **Cepheid variable stars** within galaxies.
+            
+        - Cepheids provide a measure of **absolute luminosity**.
+            
+        - By comparing **apparent luminosity** (as observed) and **absolute luminosity** (known from Cepheid properties), he could infer **distances** to galaxies.
+            
+    - **Note:**
+        
+        - Measuring **velocities** (via redshift) is relatively easy.
+            
+        - **Distance measurement** in cosmology remains challenging and debated even today.
+            
+
+### The Hubble Law
+
+- **Initial Results:**
+    
+    - Hubble’s original 1929 plot (left side of the referenced figure) showed a **correlation**: galaxies with higher velocities tend to be farther away.
+        
+    - The correlation wasn’t striking with the original (limited) dataset.
+        
+- **Further Data (1932):**
+    
+    - Additional measurements (red points in later plots), at greater distances and higher redshifts, revealed a much clearer **linear relationship** between galaxy velocity and distance.
+        
+- **Formulation:**
+    
+    - Hubble formalized this as the **Hubble Law**: $$
+v=H_0 d
+$$where $v$ is galaxy velocity, $d$ is distance, and $H_0$ is the Hubble constant (the slope of the line).
+
+**Key Takeaway:**  
+Hubble’s work provided the first strong observational evidence that the universe is **expanding**—the farther away a galaxy is, the faster it is receding from us.
+
+
+## Hubble's Law (2)
+
 In General Relativity, this can be interpreted as the expansion of space:
 ![](https://cdn.mathpix.com/cropped/2025_05_27_50cd43eba748c8e58b7eg-04.jpg?height=575&width=1501&top_left_y=438&top_left_x=321)
 
 $$
 V \equiv \dot{R}=\frac{\dot{a}}{a} R \equiv \underbrace{H}_{\text {Hubble parameter }} R
 $$
+
+
+
+
+
+
+
 
 ## Hubble's Law
 
